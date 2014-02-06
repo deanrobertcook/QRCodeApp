@@ -1,0 +1,86 @@
+@CHARSET "ISO-8859-1";
+#itemCard {
+	display: block;
+	width: 900px;
+	height: 1400px;
+	margin: 50px auto;
+	background-color: gray;
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+#backLink a {
+	font-size: 35px;
+	padding: 2px 8px;
+}
+
+#backLink {
+	padding: 0;
+	
+}
+
+#itemCard .leftColumn {
+	display: block;
+	width: 220px;
+	height: 100%;
+	float: left;
+	padding: 20px;
+}
+#itemCard .leftColumn img {
+	width: 100%;
+}
+
+#itemCard .rightColumn {
+	display: block;
+	height: 100%;
+	width: 600px;
+	float: left;
+	padding: 20px;
+}
+
+/*
+ * The following block is to style the table and the elements within it
+ */
+#itemInfoTable {
+	width: 100%;
+	text-align: left;
+	table-layout: fixed;
+}
+
+#itemInfoTable, #itemInfoTable th {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+#itemInfoTable th {
+	font-size: 48px;
+}
+
+#itemInfoTable td {
+	border: 1px solid black;
+	font-size: 40px;
+	padding: 6px;
+	word-wrap: break-word;
+	overflow: hidden;
+	
+}
+
+#itemInfoTable .editable {
+	border-left: 2px solid black;
+}
+
+#itemInfoTable tr:nth-child(2n) {
+	background-color: white;
+}
+
+/*******************************************************************************/
+
+#editButtons {
+	width: 410px;
+	margin: 0 auto;
+}
+#editButtons input[type=submit], #editButtons button {
+	font-size: 35px;
+	width: 200px;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <itemType name="pc" display="PC">
+        <field name="item_id" display="Item ID"></field>
+        <field name="serial_number" display="Serial Number"></field>
+        <field name="cpu"  display="CPU"></field>
+        <field name="ram"  display="RAM"></field>
+        <field name="hdd"  display="HDD"></field>
+        <field name="os"  display="OS"></field>
+    </itemType>
+    <itemType name="scanner" display="Scanner">
+        <field name="item_id" display="Item ID"></field>
+        <field name="serial_number"  display="Serial Number"></field>
+        <field name="test"  display="Test"></field>
+        <field name="test2"  display="Test 2"></field>
+    </itemType>
+    <itemType name="printer" display="Printer">
+        <field name="item_id" display="Item ID"></field>
+        <field name="serial_number"  display="Serial Number"></field>
+        <field name="test"  display="Test"></field>
+        <field name="test2"  display="Test 2"></field>
+        <field name="test3"  display="Test 3"></field>
+      
+    </itemType>
+</settings>

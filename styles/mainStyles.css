@@ -1,0 +1,133 @@
+@CHARSET "ISO-8859-1";
+
+/*
+ * 1. MAIN LAYOUT STYLINGS
+ * 2. ADD ITEM FORM STYLINGS
+ */
+
+/**************************1. MAIN LAYOUT STYLINGS*************************/
+#content {
+	display: block;
+	width: 1145px;
+	padding: 20px;
+	margin: 0 auto;
+	background-color: pink;
+	overflow: hidden;
+}
+
+#header {
+	display: block;
+	height: 200px;
+	background-color: green;
+	margin-bottom: 20px;
+}
+
+#leftColumn, #rightColumn {
+	display: block;
+	height: 1000px;
+}
+
+#leftColumn {
+	width: 375px;
+	background-color: red;
+	float: left;
+}
+
+#rightColumn {
+	width: 750px;
+	background-color: blue;
+	float: right;
+}
+
+
+/*****************************2. ADD ITEM FORM STYLINGS***************************/
+
+#addItemFormDiv {
+	display: block;
+	width: 100%;
+	height: 500px;
+	background-color: #CF5353;
+}
+
+#addItemFormDiv span {
+	display: block;
+	float: right;
+	clear: both;
+}
+
+#addItemFormTitle {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+}
+
+/*****************************3. DISPLAY ITEMS STYLINGS***************************/
+
+#displayItemsDiv {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	background-color: #5A69E0;
+}
+
+#displayItemsTable {
+	width: 100%;
+	table-layout: fixed;
+	
+}
+
+#displayItemsTable .itemHeader,
+#displayItemsTable .columnHeader,
+#displayItemsTable .columnInfo {
+	padding: 4px;
+	border-collapse: collapse;
+	overflow: hidden;
+}
+
+#displayItemsTable .itemHeader {
+	font-size: 24px;
+	padding: 20px 0 4px 20px;
+	border: 1px solid black;
+}
+
+#displayItemsTable .columnHeader {
+	font-size: 18px;
+	border: 1px solid black;
+	
+}
+
+#displayItemsTable .columnInfo {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	background: white;
+}
+
+#displayItemsTable .lastRow {
+	/*border-bottom: 1px solid black;*/
+}
+
+#displayItemsTable .itemViewButtonCell {
+	width: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

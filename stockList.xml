@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stockList>
+  <pc>
+    <item_id>0</item_id>
+    <serial_number>test2</serial_number>
+    <cpu>test</cpu>
+    <ram>test</ram>
+    <hdd>test</hdd>
+    <os>test</os>
+  </pc>
+  <pc>
+    <item_id>1</item_id>
+    <serial_number>test</serial_number>
+    <cpu>test</cpu>
+    <ram>test</ram>
+    <hdd>test</hdd>
+    <os>test</os>
+  </pc>
+  <pc>
+    <item_id>2</item_id>
+    <serial_number>test</serial_number>
+    <cpu>test</cpu>
+    <ram>test</ram>
+    <hdd>test</hdd>
+    <os>test</os>
+  </pc>
+  <pc>
+    <item_id>4</item_id>
+    <serial_number>test</serial_number>
+    <cpu>test</cpu>
+    <ram>test</ram>
+    <hdd>test</hdd>
+    <os>test</os>
+  </pc>
+  <pc>
+    <item_id>3</item_id>
+    <serial_number>test</serial_number>
+    <cpu>test</cpu>
+    <ram>test</ram>
+    <hdd>test</hdd>
+    <os>test</os>
+  </pc>
+</stockList>
